@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML Forms</title>
+    </head>
+    <body>
+        <h3>Form Submission</h3>
+        <form action="">
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" />
+            </div>
+            <br />
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" />
+            </div>
+            <br />
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" />
+            </div>
+            <br />
+            <div>
+                <label for="message">Message:</label>
+                <textarea
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                ></textarea>
+            </div>
+            <br />
+            <div>
+                <label for="faveColor">Fave Color:</label>
+                <select name="faveColor" id="faveColor">
+                    <option value="colorRed">Red</option>
+                    <option value="colorYellow">Yellow</option>
+                    <option value="colorOrange">Orange</option>
+                </select>
+            </div>
+            <br />
+            <div>
+                <fieldset>
+                    <legend>Favorite Meal?</legend>
+                    <input
+                        type="radio"
+                        name="faveMeal"
+                        id="breakfast"
+                        value="breakfast"
+                    /><label for="breakfast">Breakfast</label>
+                    <input
+                        type="radio"
+                        name="faveMeal"
+                        id="brunch"
+                        value="brunch"
+                    /><label for="brunch">Brunch</label>
+                    <input
+                        type="radio"
+                        name="faveMeal"
+                        id="lunch"
+                        value="lunch"
+                    /><label for="lunch">Lunch</label>
+                </fieldset>
+            </div>
+            <br />
+            <div>
+                <fieldset>
+                    <legend>Hobby?</legend>
+                    <input
+                        type="checkbox"
+                        name="faveHobby"
+                        id="reading"
+                        value="reading"
+                    /><label for="reading">Reading</label>
+                    <input
+                        type="checkbox"
+                        name="faveHobby"
+                        id="sports"
+                        value="sports"
+                    /><label for="sports">Sports</label>
+                    <input
+                        type="checkbox"
+                        name="faveHobby"
+                        id="drawing"
+                        value="drawing"
+                    /><label for="drawing">Drawing</label>
+                    <input
+                        type="checkbox"
+                        name="faveHobby"
+                        id="swimming"
+                        value="swimming"
+                    /><label for="swimming">Swimming</label>
+                </fieldset>
+            </div>
+            <br />
+            <input type="submit" value="Submit" />
+        </form>
+
+        <hr />
+
+        <h3>Table Example</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Aisle</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bread</td>
+                    <td>2</td>
+                    <td>$50.00</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Milk</td>
+                    <td>1</td>
+                    <td>$20.00</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>All</td>
+                    <td>N/A</td>
+                    <td>$70.00</td>
+                    <td>N/A</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
