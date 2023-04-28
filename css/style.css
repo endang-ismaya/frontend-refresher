@@ -1,0 +1,22 @@
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+header p {
+    color: green;
+}
+
+header p span {
+    color: blue;
+}
+
+.highlight {
+    background-color: bisque;
+}
+
+footer .highlight {
+    background-color: black;
+    width: fit-content;
+    color: aliceblue;
+}
