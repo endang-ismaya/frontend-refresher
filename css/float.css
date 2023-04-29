@@ -7,6 +7,31 @@ body {
     font-size: 87%;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Banner Overlay */
+.image-banner {
+    position: relative;
+}
+
+.image-banner img {
+    display: block;
+}
+
+.banner-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 25px;
+}
+
+/* Banner Overlay End */
+
 .container {
     max-width: 940px;
     margin-left: auto;
@@ -93,6 +118,47 @@ footer {
     padding-top: 20px;
 }
 
+/* Table style */
+table {
+    border-spacing: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+table th {
+    text-align: left;
+    background-color: #869960;
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+table th,
+table td {
+    border: 1px solid #869960;
+    padding: 10px;
+}
+
+table tbody tr:nth-child(odd) td {
+    background-color: #e5e9dc;
+}
+
+table .col-item-name {
+    width: 60%;
+}
+
+table .col-quantity,
+table .col-price {
+    width: 20%;
+}
+
+table.grocery-list tr :nth-child(2),
+table.grocery-list tr :nth-child(3) {
+    text-align: center;
+}
+
+/* Table style End */
+
+/* group for clear float */
 .group:before,
 .group:after {
     content: "";
@@ -106,3 +172,4 @@ footer {
 .group {
     zoom: 1;
 }
+/* group for clear float end*/
