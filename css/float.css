@@ -101,6 +101,12 @@ header p {
     box-sizing: border-box;
 }
 
+.main-area > p {
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 25px;
+}
+
 .sidebar {
     width: 34%;
     float: left;
