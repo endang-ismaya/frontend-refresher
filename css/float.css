@@ -46,16 +46,24 @@ header {
     padding-top: 20px;
     /* padding-bottom: 20px; */
     color: #617140;
+    background-image: url("/images/pexels-tuherdias-awang-16138674.jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header h1 {
     margin: 0;
     font-weight: normal;
     font-size: 165%;
+    color: #e5e9dc;
+    padding-left: 10px;
 }
 
 header p {
     margin: 0;
+    color: #e5e9dc;
+    padding-left: 10px;
 }
 
 /* Site Navigation */
@@ -72,6 +80,7 @@ header p {
     list-style: none;
     float: left;
     margin-right: 5px;
+    background-color: white;
 }
 
 .site-nav a {
@@ -113,18 +122,15 @@ header p {
     padding: 20px 40px;
     box-sizing: border-box;
     font-size: 85%;
+    background-image: linear-gradient(to right, #e5e9dc, #fff);
 }
 
 .sidebar p {
-    background-color: #e5e9dc;
-    padding: 20px 40px;
     width: 85%;
 }
 
 /* Form */
 form {
-    background-color: #ececec;
-    padding: 30px 40px;
     width: 85%;
 }
 
